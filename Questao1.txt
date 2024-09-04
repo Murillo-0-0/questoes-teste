@@ -1,0 +1,35 @@
+1)	Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0; 
+Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
+Imprimir(SOMA); 
+Ao final do processamento, qual será o valor da variável SOMA? 
+
+R:
+    K = 0, SOMA = 0:
+        K é incrementado para 1 (K = 0 + 1).
+        SOMA é incrementado pelo valor de K: SOMA = 0 + 1 = 1.
+
+    K = 1, SOMA = 1:
+        K é incrementado para 2 (K = 1 + 1).
+        SOMA é incrementado pelo valor de K: SOMA = 1 + 2 = 3.
+
+    K = 2, SOMA = 3:
+        K é incrementado para 3 (K = 2 + 1).
+        SOMA é incrementado pelo valor de K: SOMA = 3 + 3 = 6.
+
+    K = 3, SOMA = 6:
+        K é incrementado para 4 (K = 3 + 1).
+        SOMA é incrementado pelo valor de K: SOMA = 6 + 4 = 10.
+
+Esse processo continua até que K atinja o valor de 13. Vamos calcular o valor final:
+
+    Quando K = 13, a soma final será:
+    SOMA = 1 + 2 + 3 + ... + 13.
+
+A soma dos primeiros n números inteiros é dada pela fórmula:
+SOMA=n×(n+1)2SOMA=2n×(n+1)​
+
+Substituindo n = 13:
+
+SOMA=13×142=1822=91SOMA=213×14​=2182​=91
+
+Portanto, ao final do processamento, o valor da variável SOMA será 91.
